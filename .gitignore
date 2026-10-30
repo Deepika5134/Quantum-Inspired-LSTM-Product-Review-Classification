@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Datasets and local outputs (do not commit unless redistribution is allowed)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Notebook checkpoints and generated model files
+.ipynb_checkpoints/
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
